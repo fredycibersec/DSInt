@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <img src="[https://via.placeholder.com/150?text=DSInt+Logo](https://github.com/fredycibersec/DSInt/blob/main/DSInt_Tool_logo.png)" alt="DSInt Logo" width="150"/>
+  <img src="https://github.com/fredycibersec/DSInt/blob/main/DSInt_Tool_logo.png" alt="DSInt Logo" width="150"/>
 </p>
 
 ## 🌐 Overview
