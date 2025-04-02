@@ -84,7 +84,7 @@ The `requirements.txt` file includes:
 - rich==13.4.2 - For beautiful terminal output
 - requests==2.31.0 - For HTTP requests
 - dnspython==2.3.0 - For DNS operations
-44|
+
 
 ## 🚀 Usage
 
