@@ -163,7 +163,8 @@ results/example.com_20230621_120145/
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=DSInt+Terminal+Output" alt="DSInt Terminal Output"/>
+  <img src="https://github.com/fredycibersec/DSInt/blob/main/DSint_1.png" alt="DSInt Terminal Output"/>
+  <img src="https://github.com/fredycibersec/DSInt/blob/main/DSint_2.png" alt="DSInt Terminal Output"/>
   <br>
   <em>DSInt in action showing subdomain discovery process</em>
 </p>
