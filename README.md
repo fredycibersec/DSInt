@@ -48,7 +48,7 @@ This tool is designed to help security professionals, bug bounty hunters, and pe
 - **Rich Visualizations**: Beautiful terminal output with progress indicators
 - **Flexible Verbosity**: Control the amount of output detail
 - **Email Security Analysis**: Checks for SPF, DKIM, and DMARC records to evaluate email spoofing protection
-19|
+
 
 ## 🔧 Installation
 
@@ -104,39 +104,39 @@ This will:
 
 ```bash
 # Run with increased verbosity
-python domain_recon.py example.com -v
+python3 domain_recon.py example.com -v
 
 # Run with minimal output
-python domain_recon.py example.com -q
+python3 domain_recon.py example.com -q
 
 # Specify IP address mode (for IP reconnaissance)
-python domain_recon.py 192.168.1.1 --ip
+python3 domain_recon.py 192.168.1.1 --ip
 
 # Enable recursive enumeration (enumerate discovered subdomains)
-python domain_recon.py example.com --recursive
+python3 domain_recon.py example.com --recursive
 
 # Skip MassDNS verification stage
-python domain_recon.py example.com --no-massdns
+python3 domain_recon.py example.com --no-massdns
 
 # Use custom output directory
-python domain_recon.py example.com --output-dir custom_folder
+python3 domain_recon.py example.com --output-dir custom_folder
 
 # Use custom wordlist for dictionary-based discovery
-python domain_recon.py example.com --wordlist path/to/wordlist.txt
+python3 domain_recon.py example.com --wordlist path/to/wordlist.txt
 
 # Skip dictionary-based subdomain discovery
-python domain_recon.py example.com --skip-wordlist
+python3 domain_recon.py example.com --skip-wordlist
 
 # Run only specific tools
-python domain_recon.py example.com --tools amass,subfinder
+python3 domain_recon.py example.com --tools amass,subfinder
 
 # Check email security records (SPF, DKIM, DMARC)
-python domain_recon.py example.com --check-email-security
+python3 domain_recon.py example.com --check-email-security
 
 # Export results to specific formats
-python domain_recon.py example.com --export json,csv
+python3 domain_recon.py example.com --export json,csv
 ```
-80|
+
 
 ## 📁 Output Files
 
@@ -167,7 +167,7 @@ results/example.com_20230621_120145/
   <br>
   <em>DSInt in action showing subdomain discovery process</em>
 </p>
-90|
+
 
 ## 📜 License
 
@@ -206,6 +206,6 @@ This tool is provided for educational and legal security assessment purposes onl
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/fredycibersec">your username</a>
+  Made with ❤️ by <a href="https://github.com/fredycibersec">SaruMan</a>
 </p>
 
